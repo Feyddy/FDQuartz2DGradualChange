@@ -1,0 +1,2 @@
+# FDQuartz2DGradualChange
+Quartz2D的线性渐变和径向渐变
