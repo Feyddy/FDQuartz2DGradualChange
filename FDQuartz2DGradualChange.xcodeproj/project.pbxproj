@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F82EDBEF1E29163900C4B691 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDBEE1E29163900C4B691 /* main.m */; };
+		F82EDBF21E29163900C4B691 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDBF11E29163900C4B691 /* AppDelegate.m */; };
+		F82EDBF51E29163900C4B691 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDBF41E29163900C4B691 /* ViewController.m */; };
+		F82EDBF81E29163900C4B691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82EDBF61E29163900C4B691 /* Main.storyboard */; };
+		F82EDBFA1E29163900C4B691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82EDBF91E29163900C4B691 /* Assets.xcassets */; };
+		F82EDBFD1E29163900C4B691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82EDBFB1E29163900C4B691 /* LaunchScreen.storyboard */; };
+		F82EDC081E29163900C4B691 /* FDQuartz2DGradualChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDC071E29163900C4B691 /* FDQuartz2DGradualChangeTests.m */; };
+		F82EDC131E29163900C4B691 /* FDQuartz2DGradualChangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDC121E29163900C4B691 /* FDQuartz2DGradualChangeUITests.m */; };
+		F82EDC221E29165600C4B691 /* FDGradualChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F82EDC211E29165600C4B691 /* FDGradualChangeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F82EDC041E29163900C4B691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F82EDBE21E29163900C4B691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82EDBE91E29163900C4B691;
+			remoteInfo = FDQuartz2DGradualChange;
+		};
+		F82EDC0F1E29163900C4B691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F82EDBE21E29163900C4B691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82EDBE91E29163900C4B691;
+			remoteInfo = FDQuartz2DGradualChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F82EDBEA1E29163900C4B691 /* FDQuartz2DGradualChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDQuartz2DGradualChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82EDBEE1E29163900C4B691 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F82EDBF01E29163900C4B691 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F82EDBF11E29163900C4B691 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F82EDBF31E29163900C4B691 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F82EDBF41E29163900C4B691 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F82EDBF71E29163900C4B691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F82EDBF91E29163900C4B691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F82EDBFC1E29163900C4B691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F82EDBFE1E29163900C4B691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82EDC031E29163900C4B691 /* FDQuartz2DGradualChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDQuartz2DGradualChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82EDC071E29163900C4B691 /* FDQuartz2DGradualChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDQuartz2DGradualChangeTests.m; sourceTree = "<group>"; };
+		F82EDC091E29163900C4B691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82EDC0E1E29163900C4B691 /* FDQuartz2DGradualChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDQuartz2DGradualChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82EDC121E29163900C4B691 /* FDQuartz2DGradualChangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDQuartz2DGradualChangeUITests.m; sourceTree = "<group>"; };
+		F82EDC141E29163900C4B691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82EDC201E29165600C4B691 /* FDGradualChangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDGradualChangeView.h; sourceTree = "<group>"; };
+		F82EDC211E29165600C4B691 /* FDGradualChangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDGradualChangeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F82EDBE71E29163900C4B691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82EDC001E29163900C4B691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82EDC0B1E29163900C4B691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F82EDBE11E29163900C4B691 = {
+			isa = PBXGroup;
+			children = (
+				F82EDBEC1E29163900C4B691 /* FDQuartz2DGradualChange */,
+				F82EDC061E29163900C4B691 /* FDQuartz2DGradualChangeTests */,
+				F82EDC111E29163900C4B691 /* FDQuartz2DGradualChangeUITests */,
+				F82EDBEB1E29163900C4B691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F82EDBEB1E29163900C4B691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDBEA1E29163900C4B691 /* FDQuartz2DGradualChange.app */,
+				F82EDC031E29163900C4B691 /* FDQuartz2DGradualChangeTests.xctest */,
+				F82EDC0E1E29163900C4B691 /* FDQuartz2DGradualChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F82EDBEC1E29163900C4B691 /* FDQuartz2DGradualChange */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDBF01E29163900C4B691 /* AppDelegate.h */,
+				F82EDBF11E29163900C4B691 /* AppDelegate.m */,
+				F82EDBF31E29163900C4B691 /* ViewController.h */,
+				F82EDBF41E29163900C4B691 /* ViewController.m */,
+				F82EDC201E29165600C4B691 /* FDGradualChangeView.h */,
+				F82EDC211E29165600C4B691 /* FDGradualChangeView.m */,
+				F82EDBF61E29163900C4B691 /* Main.storyboard */,
+				F82EDBF91E29163900C4B691 /* Assets.xcassets */,
+				F82EDBFB1E29163900C4B691 /* LaunchScreen.storyboard */,
+				F82EDBFE1E29163900C4B691 /* Info.plist */,
+				F82EDBED1E29163900C4B691 /* Supporting Files */,
+			);
+			path = FDQuartz2DGradualChange;
+			sourceTree = "<group>";
+		};
+		F82EDBED1E29163900C4B691 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDBEE1E29163900C4B691 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F82EDC061E29163900C4B691 /* FDQuartz2DGradualChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDC071E29163900C4B691 /* FDQuartz2DGradualChangeTests.m */,
+				F82EDC091E29163900C4B691 /* Info.plist */,
+			);
+			path = FDQuartz2DGradualChangeTests;
+			sourceTree = "<group>";
+		};
+		F82EDC111E29163900C4B691 /* FDQuartz2DGradualChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F82EDC121E29163900C4B691 /* FDQuartz2DGradualChangeUITests.m */,
+				F82EDC141E29163900C4B691 /* Info.plist */,
+			);
+			path = FDQuartz2DGradualChangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F82EDBE91E29163900C4B691 /* FDQuartz2DGradualChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82EDC171E29163900C4B691 /* Build configuration list for PBXNativeTarget "FDQuartz2DGradualChange" */;
+			buildPhases = (
+				F82EDBE61E29163900C4B691 /* Sources */,
+				F82EDBE71E29163900C4B691 /* Frameworks */,
+				F82EDBE81E29163900C4B691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDQuartz2DGradualChange;
+			productName = FDQuartz2DGradualChange;
+			productReference = F82EDBEA1E29163900C4B691 /* FDQuartz2DGradualChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F82EDC021E29163900C4B691 /* FDQuartz2DGradualChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82EDC1A1E29163900C4B691 /* Build configuration list for PBXNativeTarget "FDQuartz2DGradualChangeTests" */;
+			buildPhases = (
+				F82EDBFF1E29163900C4B691 /* Sources */,
+				F82EDC001E29163900C4B691 /* Frameworks */,
+				F82EDC011E29163900C4B691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82EDC051E29163900C4B691 /* PBXTargetDependency */,
+			);
+			name = FDQuartz2DGradualChangeTests;
+			productName = FDQuartz2DGradualChangeTests;
+			productReference = F82EDC031E29163900C4B691 /* FDQuartz2DGradualChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F82EDC0D1E29163900C4B691 /* FDQuartz2DGradualChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82EDC1D1E29163900C4B691 /* Build configuration list for PBXNativeTarget "FDQuartz2DGradualChangeUITests" */;
+			buildPhases = (
+				F82EDC0A1E29163900C4B691 /* Sources */,
+				F82EDC0B1E29163900C4B691 /* Frameworks */,
+				F82EDC0C1E29163900C4B691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F82EDC101E29163900C4B691 /* PBXTargetDependency */,
+			);
+			name = FDQuartz2DGradualChangeUITests;
+			productName = FDQuartz2DGradualChangeUITests;
+			productReference = F82EDC0E1E29163900C4B691 /* FDQuartz2DGradualChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F82EDBE21E29163900C4B691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Feyddy;
+				TargetAttributes = {
+					F82EDBE91E29163900C4B691 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F82EDC021E29163900C4B691 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F82EDBE91E29163900C4B691;
+					};
+					F82EDC0D1E29163900C4B691 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F82EDBE91E29163900C4B691;
+					};
+				};
+			};
+			buildConfigurationList = F82EDBE51E29163900C4B691 /* Build configuration list for PBXProject "FDQuartz2DGradualChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F82EDBE11E29163900C4B691;
+			productRefGroup = F82EDBEB1E29163900C4B691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F82EDBE91E29163900C4B691 /* FDQuartz2DGradualChange */,
+				F82EDC021E29163900C4B691 /* FDQuartz2DGradualChangeTests */,
+				F82EDC0D1E29163900C4B691 /* FDQuartz2DGradualChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F82EDBE81E29163900C4B691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82EDBFD1E29163900C4B691 /* LaunchScreen.storyboard in Resources */,
+				F82EDBFA1E29163900C4B691 /* Assets.xcassets in Resources */,
+				F82EDBF81E29163900C4B691 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82EDC011E29163900C4B691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82EDC0C1E29163900C4B691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F82EDBE61E29163900C4B691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82EDBF51E29163900C4B691 /* ViewController.m in Sources */,
+				F82EDBF21E29163900C4B691 /* AppDelegate.m in Sources */,
+				F82EDBEF1E29163900C4B691 /* main.m in Sources */,
+				F82EDC221E29165600C4B691 /* FDGradualChangeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82EDBFF1E29163900C4B691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82EDC081E29163900C4B691 /* FDQuartz2DGradualChangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82EDC0A1E29163900C4B691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82EDC131E29163900C4B691 /* FDQuartz2DGradualChangeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F82EDC051E29163900C4B691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82EDBE91E29163900C4B691 /* FDQuartz2DGradualChange */;
+			targetProxy = F82EDC041E29163900C4B691 /* PBXContainerItemProxy */;
+		};
+		F82EDC101E29163900C4B691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F82EDBE91E29163900C4B691 /* FDQuartz2DGradualChange */;
+			targetProxy = F82EDC0F1E29163900C4B691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F82EDBF61E29163900C4B691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82EDBF71E29163900C4B691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F82EDBFB1E29163900C4B691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F82EDBFC1E29163900C4B691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F82EDC151E29163900C4B691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F82EDC161E29163900C4B691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F82EDC181E29163900C4B691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDQuartz2DGradualChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDQuartz2DGradualChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F82EDC191E29163900C4B691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDQuartz2DGradualChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDQuartz2DGradualChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F82EDC1B1E29163900C4B691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDQuartz2DGradualChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDQuartz2DGradualChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDQuartz2DGradualChange.app/FDQuartz2DGradualChange";
+			};
+			name = Debug;
+		};
+		F82EDC1C1E29163900C4B691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDQuartz2DGradualChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDQuartz2DGradualChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDQuartz2DGradualChange.app/FDQuartz2DGradualChange";
+			};
+			name = Release;
+		};
+		F82EDC1E1E29163900C4B691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDQuartz2DGradualChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDQuartz2DGradualChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDQuartz2DGradualChange;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F82EDC1F1E29163900C4B691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDQuartz2DGradualChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuzhonglin.FDQuartz2DGradualChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDQuartz2DGradualChange;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F82EDBE51E29163900C4B691 /* Build configuration list for PBXProject "FDQuartz2DGradualChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82EDC151E29163900C4B691 /* Debug */,
+				F82EDC161E29163900C4B691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82EDC171E29163900C4B691 /* Build configuration list for PBXNativeTarget "FDQuartz2DGradualChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82EDC181E29163900C4B691 /* Debug */,
+				F82EDC191E29163900C4B691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F82EDC1A1E29163900C4B691 /* Build configuration list for PBXNativeTarget "FDQuartz2DGradualChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82EDC1B1E29163900C4B691 /* Debug */,
+				F82EDC1C1E29163900C4B691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F82EDC1D1E29163900C4B691 /* Build configuration list for PBXNativeTarget "FDQuartz2DGradualChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F82EDC1E1E29163900C4B691 /* Debug */,
+				F82EDC1F1E29163900C4B691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F82EDBE21E29163900C4B691 /* Project object */;
+}
